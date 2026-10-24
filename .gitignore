@@ -1,0 +1,30 @@
+# environments and caches
+.venv/
+.tools/
+__pycache__/
+.pytest_cache/
+
+# datasets (downloaded with data/download_all.sh) and large inputs
+data/*
+!data/download_all.sh
+colab/expert_inputs.npz
+
+# papers and manuscripts (copyright / unpublished)
+*.pdf
+okunmayan makaleler/
+
+# run logs and large or regenerable outputs
+*.log
+outputs/agentic_ct_iqa/*.png
+outputs/agentic_ct_iqa/scores/
+outputs/agentic_ct_iqa/trajectories*.jsonl
+outputs/agentic_ct_iqa/experts/experts_vm.log
+outputs/agentic_ct_iqa/experts/tolga_vm.log
+novelty_arama/sonuc_*.md
+
+# experiment sandboxes: test images and nested git repos (rebuilt with scripts/make_sandboxes.py)
+experiment_sandboxes/setup*/
+colab/medgemma_job/
+colab/qwen35_job/
+outputs/agentic_ct_iqa/probe/*.safetensors
+outputs/agentic_ct_iqa/vision_ft/**/*.pt
