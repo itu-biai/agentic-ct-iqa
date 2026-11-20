@@ -10,3 +10,9 @@ arrays, run outputs and weights are not in this repository.
 - `colab/`: launchers for the Colab G4 runs (`*.sh`) and the scripts that run on the VM (`colab/vm/`), e.g.
   `colab/vm/vftb_train.py` (Stage B), `colab/vm/medsig_seed.py` (MedSigLIP seeds).
 - `data/download_all.sh`: downloads the datasets.
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC BY-NC 4.0) - see the [LICENSE](LICENSE) file for
+details.
